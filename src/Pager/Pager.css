@@ -1,0 +1,20 @@
+.pager a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pager a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pager a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/*
+Copied from w3schools pagination example
+https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_pagination_active
+*/
